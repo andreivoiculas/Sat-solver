@@ -10,20 +10,23 @@ I provided a selection of sets of clauses to test the solver on.
 It solves hard* problems anywhere between 1m to 3h,
 but it's reliably fast for medium or easy ones.
 
-* hard problems where randomly generated with the ratio of clauses to variables around the corssover point (4.25).
+*hard problems where randomly generated with the ratio of clauses to variables around the corssover point (4.25).
 
 Format of set clauses:
 
-----
 c comment line
+
 c this is a test problem
+
 p cnf 3 4
 
 1 0
+
 -1 2 0
+
 -1 -2 3 0
+
 -2 -3 0
-----
 
   Where lines starting with  "c" are comment lines.
   Line "p cnf 3 4" 
